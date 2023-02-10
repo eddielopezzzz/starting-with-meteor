@@ -43,7 +43,7 @@ export const ContactForm = () => {
                     type="text" />
             </div>
             <div>
-                <button type="button" onClick={saveContact}>Save Contact</button>
+                <button id="saveContactBtn" type="button" onClick={saveContact}>Save Contact</button>
             </div>
         </form>
     )
